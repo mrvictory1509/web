@@ -68,6 +68,7 @@
 	 					</tr>
 	 					<tr>
 	 						<th></th>
+	 						<td></td>
 	 						<td>Price <SPAN style="color: red">*</SPAN></td>
 	 						<th><input type="text" name="Unitprice" required></th>
 	 					</tr>
