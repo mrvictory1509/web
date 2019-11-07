@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>admin</title>
+	<title>Admin</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -65,10 +65,6 @@
 			</ul>
 			</div>
 		<div class="banner">
-		 		<div class="Home">
-		 			<p>Admin Interface</p>
-					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
-				</div>
 				<div class="Search">
 					<div class="Search1">
 						<form class="example" action="Search.php" method="get">
@@ -115,7 +111,8 @@
 				<?php } ?>
 			</table> <br> <br>
 			<div>
-				<b><span style="font-size:20px">Add New Product:</span></b>   <a href="https://thang1234.herokuapp.com/add.php"><input type="button" value="Add Product" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px" ></a> 
+				<b><span style="font-size:20px">Add New Product:</span></b>  
+				 <a href="https://thang1234.herokuapp.com/add.php"><input type="button" value="Add Product" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px" ></a> 
 			</div>			
 		</div>
 		<div style="margin:50px; padding-left:20%">

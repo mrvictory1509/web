@@ -16,7 +16,7 @@
 		<div class="banner">
 		 		<div class="Home">
 		 			<p>Admin Interface</p>
-					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/admin.php"></a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
@@ -67,16 +67,10 @@
 	 						<th><input type="text" name="Productname" required></th>
 	 					</tr>
 	 					<tr>
-	 						<th></th>
-	 						<td></td>
-	 						<td></td>
-	 						<td>Price <SPAN style="color: red">*</SPAN></td>
-	 						<th><input type="text" name="Unitprice" required></th>
-	 					</tr>
-	 					<tr>
 	 						<td>Image <SPAN style="color: red">*</SPAN></td>
 	 						<th><input type="text" name="Images" required></th>
-	 						<th></th>
+	 						<td>Price <SPAN style="color: red">*</SPAN></td>
+	 						<th><input type="text" name="Unitprice" required></th>
 	 					</tr>
 	 					<tr>
 	 						<td>Category ID <SPAN style="color: red">*</SPAN></td>
