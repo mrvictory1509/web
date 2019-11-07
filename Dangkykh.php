@@ -36,7 +36,7 @@
 				<table align="center" cellspacing="0" cellpadding="0" width="50%">
 					<tr>
 						<td><h1>Create an Account</h1></td>
-						<td style="padding-left: 200px">You are already a member?<a href="https://thang1234.herokuapp.com/Dangnhap.php">Log in</a> Here</td>
+						<td style="padding-left: 200px">You are already a member?<a href="https://thang1234.herokuapp.com/Login.php">Log in</a> Here</td>
 					</tr>
 				</table>
 			</div>
