@@ -112,7 +112,8 @@
 			<th  rowspan="2" style=" color:#FFFFFF" > ATN CO., LTD <br>
  													Business registration certificate: 245638792 - Date of issue: Oct 10, 2015, amended for the 9th time on Mar 15, 2019.<br>
  													Issuing agency: Business Registration Office - Hanoi Department of Planning and Investment.  <br>
- 													Registered business address: 2nd Floor, 152 Nguyen Dinh Hoan, Cau Giay, Hanoi, Vietnam  <br>  <br><br>    @ATN 2019
+ 													Registered business address: 2nd Floor, 152 Nguyen Dinh Hoan, Cau Giay, Hanoi, Vietnam  <br>
+ 													@ATN 2019
  			</th>
 			</tr>
 			<tr >
