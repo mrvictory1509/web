@@ -63,13 +63,13 @@
 	<div class="header">
 		<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Back to the customer interface</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Back to the customer interface</a></li>
 			</ul>
 			</div>
 		<div class="banner">
 		 		<div class="Home">
 		 			<p>Admin Interface</p>
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
@@ -109,7 +109,7 @@
 								<?php echo $rows[$i][$j]?>
 							</th>							
 						<?php } ?>
-							<th ><a href="https://designweb.herokuapp.com/Suadoi.php?id=<?php echo $rows[$i][0] ?>"><input type="button" value="Update" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" ></a> 
+							<th ><a href="https://thang1234.herokuapp.com/Suadoi.php?id=<?php echo $rows[$i][0] ?>"><input type="button" value="Update" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" ></a> 
 							</th>
 							<th ><a href="admin.php?del=<?php echo $rows[$i][0] ?>"> <input type="button" value="Delete" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" onclick="return Deleteqry(<?php echo $rows[$i][0] ?>);"> </a>
 							</th>
@@ -117,7 +117,7 @@
 				<?php } ?>
 			</table> <br> <br>
 			<div>
-				<b><span style="font-size:20px">Add New Product:</span></b>   <a href="https://designweb.herokuapp.com/add.php"><input type="button" value="Add Product" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px" ></a> 
+				<b><span style="font-size:20px">Add New Product:</span></b>   <a href="https://thang1234.herokuapp.com/add.php"><input type="button" value="Add Product" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px" ></a> 
 			</div>			
 		</div>
 		<div style="margin:50px; padding-left:20%">
@@ -172,7 +172,7 @@
 								<?php echo $rows[$i][$j]?>
 							</th>
 						<?php } ?>
-							<th ><a href="https://designweb.herokuapp.com/Suadoi.php?id=<?php echo $rows[$i][0] ?>"><input type="button" value="Update" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" ></a> 
+							<th ><a href="https://thang1234.herokuapp.com/Suadoi.php?id=<?php echo $rows[$i][0] ?>"><input type="button" value="Update" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" ></a> 
 							</th>
 							<th ><a href="admin.php?del=<?php echo $rows[$i][0] ?>"> <input type="button" value="Delete" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" onclick="return Deleteqry(<?php echo $rows[$i][0] ?>);"> </a>
 							</th>
@@ -180,7 +180,7 @@
 				<?php } ?>
 			</table>
 			<div> <br> <br>
-				<b><span style="font-size:20px">Add New Product:</span></b>   <a href="https://designweb.herokuapp.com/addcategory.php"><input type="button" value="Add Catedory" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px" ></a> 
+				<b><span style="font-size:20px">Add New Product:</span></b>   <a href="https://thang1234.herokuapp.com/addcategory.php"><input type="button" value="Add Catedory" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px" ></a> 
 			</div>
 			</form>
 		</div>

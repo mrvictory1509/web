@@ -10,16 +10,16 @@
 	<div class="header">
 			<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Home</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
 				<li><a href="">Check Order</a></li>
 				<li><a href="">Log in</a></li>
-				<li><a href="https://designweb.herokuapp.com/Dangkykh.php">Register</a></li>
-				<li><a href="https://designweb.herokuapp.com/admin.php">Admin</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
+				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
 			</div>
 		 	<div class="banner">
 		 		<div class="Home">
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
@@ -60,8 +60,6 @@
               $productname = $rowproduct['productname'];
               $unitprice = $rowproduct['unitprice'];
               $images = $rowproduct['images'];
-              $stock = $rowproduct['stock'];
-              $manufacturer = $rowproduct['manufacturer'];
         ?>
 			<form action="">
 				<div class="Chitietsanpham1">
@@ -71,7 +69,7 @@
 											<hr> <br>
 											Price: <?= $unitprice; ?> vnđ <br> <br>
 											Amount: <?= $stock; ?> <br> <br>
-											Số lượng sản phẩm bạn muốn mua: <input type="number" style="width: 100px;"> <br> <br> <br>
+											Number of products you want to buy: <input type="number" style="width: 100px;"> <br> <br> <br>
 											<a href=""><input type="button" value="Buy now" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:40%; height: 30px; margin: 20px" ></a>
 											<a href=""><input type="button" value="Add to cart" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:40%; height: 30px; margin: 15px" ></a>
 					</div>
