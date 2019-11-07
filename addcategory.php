@@ -10,13 +10,13 @@
 	<div class="header">
 		<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Back to the customer interface</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Back to the customer interface</a></li>
 			</ul>
 		</div>
 		<div class="banner">
 		 		<div class="Home">
 		 			<p>Admin interface</p>
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
@@ -60,16 +60,17 @@
 	 				<table  cellspacing="20" cellpadding="0" style="width: 100%; "  >
 	 					<tr>
 	 						<td>CategoryId <SPAN style="color: red">*</SPAN></td>
-	 						<th><input type="text" name="Productid" required></th>
+	 						<th><input type="text" name="Categoryid" required></th>
 	 					</tr>
 	 					<tr>
 	 						<td>CategoryName <SPAN style="color: red">*</SPAN></td>
+	 						<th><input type="text" name="Categoryname" required></th>
 	 					</tr>
 	 					<tr><td colspan="5" >Please enter all product information (<SPAN style="color: red">*</SPAN>)</td></tr>
 	 					<tr></tr>
 	 					<tr>
 	 						<td > <input type="submit" value="Add" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:50%; height: 30px" ></td>
-	 						<th > <a href="https://designweb.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px"></a></th>
+	 						<th > <a href="https://thang1234.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px"></a></th>
 	 					</tr>
 	 				</table>
 	 				</form>

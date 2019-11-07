@@ -1,67 +1,91 @@
 
-CREATE TABLE Category(
-   	CategoryId int not null,
-	CategoryName varchar(50) not null,
-   PRIMARY KEY(CategoryId)
+
+CREATE TABLE category(
+   	categoryid int not null,
+	categoryname varchar(100) not null,
+   PRIMARY KEY(categoryid)
 );
 
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (1,'Barbie Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (2,'Robot Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (3,'Action figures Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (4,'Animals Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (5,'Construction Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (6,'Food-related Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (7,'Model building Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (8,'Science and optical Toys');
-INSERT INTO Category(CategoryId, CategoryName) 
-VALUES (9,'Sound Toys');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (1,'Robot Toys');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (2,' Control Toys');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (3,'Smart puzzles');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (4,'Slide bridge');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (5,'Roller skates');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (6,'Skateboard');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (7,'Hero toy');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (8,'Ekid Toys');
+INSERT INTO category(Categoryid, Categoryname) 
+VALUES (9,'Modeling clay');
 
-
-CREATE TABLE Product(
-   	ProductId int not null,
-	ProductName varchar(40) not null,
+CREATE TABLE product(
+   	productid int not null,
+	productname varchar(100) not null,
+	manufacturer varchar(100) not null,
 	unitprice int not null,
-	images varchar(40) not null,
+	images varchar(100) not null,
+	stock int not null,
 	categoryid int references category(categoryid) not null,
    PRIMARY KEY(productid)
 );
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (1,'Barbie Dreamtopia','img\Barbie1.jpg',100,1);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (2,'Barbie Toy Espisodes','img\Barbie2.jpg',200,1);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (3,'Transformer-shaped Robot','img\Robot1.jpg',150,2);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (4,'Bandai-BX Robot','img\Robot2.jpg',180,2);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (5,'Mcfarlane Toys Call Of Duty','img\Action figures Toys1.jpg',250,3);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (6,'Iron Man','img\Action figures Toys2.jpg',280,3);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (7,'6 Piece Farm Animal Model','img\Animals Toys1.jpg',80,4);
-INSERT INTO product(ProductId, ProductName, Images,unitprice, CategoryId)
-VALUES (8,'Zoo Papo','img\Animals Toys2.jpg',160,4);
-INSERT INTO product(ProductId, ProductName, Images,unitprice, CategoryId)
-VALUES (9,'Excavator, Trunk and Dump Trucks','img\Construction Toys.jpg',120,5);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (10,'Wooden Toys Cutting Fruit','img\Food-related Toys1.jpg',150,6);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (11,'Fisher-Price Fun With Food','img\Food-related Toys2.jpg',230,6);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (12,'KNex 70 Model','img\Model building Toys1.jpg',270,7);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (13,'Lego Castle Medieval','img\Model building Toys2.jpg',500,7);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (14,'Wood Baby kaleidoscop','img\Science and optical Toys.jpg',400,8);
-INSERT INTO product(ProductId, ProductName, Images, unitprice, CategoryId)
-VALUES (15,'Baby Sound Toy','img\Sound Toys1.jpg',20,9);
-INSERT INTO product(ProductId, ProductName, Images,unitprice, CategoryId)
-VALUES (16,'Baby Einstein Octopus Orchestra','img\Sound Toys2.jpg',20,9);
+
+
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(1,'Transformer1','BBT Global',700000,'img\Transformer1.jpg',250,1);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(2,'Trasformer2','Hitomi',400000,'img\Transformer2.jpg',150,1);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(3,'Trasformer3','Optimus Prime',650000,'img\Transformer3.jpg',100,2);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(4,'Puzzle1','Disney',350000,'img\Xephinh1.jpg',125,3);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(5,'Puzzle2','Disney',900000,'img\Xephinh2.jpg',85,3);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(6,'New generation toy slide','Edu Play',1500000,'img\Cautruot1.jpg',50,4);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(7,'Korean slide','Garu Play',700000,'img\Cautruot2.jpg',70,4);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(8,'Patin Cougar skates','Cougar',950000,'img\Patin1.jpg',35,5);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(9,'Disney spiderman roller skates','Diseny',999000,'img\Patin2.jpg',25,5);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(10,'Maple Cruiser Professional Skateboard','Maple Cruiser',450000,'img\Vantruot1.jpg',150,6);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(11,'Superman skateboard','Karru',800000,'img\Vantruot2.jpg',200,6);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(12,'Captain America toys','Bowa',250000,'img\nhapvai.jpg',30,7);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(13,'Hulk toys','Hiro',1000000,'img\nhapvai2.jpg',50,7);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(14,'Flash card Ekidar 3D Ehon','Ekidar',120000,'img\flashcard.jpg',200,8);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(15,'Modeling clay Kiddy Clay','Kiddy Clay',100000,'img\Datnan.jpg',300,9);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(16,'Thai clay toy','Kitkat',300000,'img\Datnan2.jpg',120,4);
+INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid)
+VALUES 
+(17,'SpiderMan Toys','Hiro',800000,'img\nhapvai1.jpg',150,7);
+

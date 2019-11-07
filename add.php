@@ -10,13 +10,13 @@
 	<div class="header">
 		<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Back to the customer interface</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Back to the customer interface</a></li>
 			</ul>
 		</div>
 		<div class="banner">
 		 		<div class="Home">
 		 			<p>Admin Interface</p>
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
@@ -98,7 +98,7 @@
 	 					<tr><td colspan="5" > Please enter all product information (<SPAN style="color: red">*</SPAN>)</td></tr>
 	 					<tr>
 	 						<th colspan="3" > <input type="submit" value="Add" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px" ></th>
-	 						<th colspan="2" > <a href="https://designweb.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px"></a></th>
+	 						<th colspan="2" > <a href="https://thang1234.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px"></a></th>
 	 					</tr>
 	 				</table>
 	 				</form>

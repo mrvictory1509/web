@@ -11,9 +11,7 @@
 			<div class="nava">
 			<ul>
 				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
-				<li><a href="https://thang1234.herokuapp.com/Checkorder.php.php">Check Order</a></li>
 				<li><a href="https://thang1234.herokuapp.com/Login.php.php">Log in</a></li>
-				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
 				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
 			</div>
@@ -59,7 +57,6 @@
 		              $categoryname = $rowcategory['categoryname'];
 		          ?>
 					<b style="font-size: 30px;"><a style="text-decoration: none; color: black;"  href="ATNdetail.php?categoryid= <?= $categoryid; ?> "><?= $categoryname; ?></a></b>
-
 				<?php 
 					}}
 				?>

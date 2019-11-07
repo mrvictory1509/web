@@ -11,7 +11,6 @@
 			<div class="nava">
 			<ul>
 				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
-				<li><a href="https://thang1234.herokuapp.com/Checkorder.php">Check Order</a></li>
 				<li><a href="https://thang1234.herokuapp.com/Login.php">Log in</a></li>
 				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
 				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
