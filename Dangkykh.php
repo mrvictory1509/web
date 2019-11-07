@@ -49,8 +49,6 @@
 					$postalcode = $_POST['postalcode'];
 					$city = $_POST['city'];
 					$country = $_POST['country'];
-					$phone = $_POST['phone'];
-					$fax = $_POST['fax'];
 					$tendangnhap = $_POST['tendangnhap'];
 					$password = $_POST['password'];
 					$sql = "INSERT INTO customers(custid, fullname,  address, postalcode, city, country, phone, fax, tendangnhap, password)  VALUES ('$custid','$fullname','$address', '$postalcode',   '$city', '$country', '$phone', '$fax', '$tendangnhap','$password')";
