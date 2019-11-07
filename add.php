@@ -62,7 +62,6 @@
 	 					<tr>
 	 						<td>Product Id <SPAN style="color: red">*</SPAN></td>
 	 						<th><input type="text" name="Productid" required></th>
-	 						<th></th>
 	 						<td>Product Name<SPAN style="color: red">*</SPAN></td>
 	 						<th><input type="text" name="Productname" required></th>
 	 					</tr>
@@ -91,8 +90,8 @@
 	 					</tr>
 	 					<tr><td colspan="5" > Please enter all product information (<SPAN style="color: red">*</SPAN>)</td></tr>
 	 					<tr>
-	 						<th colspan="3" > <input type="submit" value="Add" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px" ></th>
-	 						<th colspan="2" > <a href="https://thang1234.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:30%; height: 30px"></a></th>
+	 						<th colspan="3" > <input type="submit" value="Add" style=" background-color: #FF7302; text-decoration-color: #0B0A0A; width:30%; height: 30px" ></th>
+	 						<th colspan="2" > <a href="https://thang1234.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #0D0C0C; width:50%; height: 30px"></a></th>
 	 					</tr>
 	 				</table>
 	 				</form>
