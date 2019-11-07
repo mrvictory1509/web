@@ -11,8 +11,8 @@
 			<div class="nava">
 			<ul>
 				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
-				<li><a href="">Check Order</a></li>
-				<li><a href="">Log in</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Checkorder.php">Check Order</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Login.php">Log in</a></li>
 				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
 				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
@@ -67,8 +67,7 @@
 					</div>
 					<div class="chitiet">	<br>Product Name: <?= $productname; ?> <br> <br>
 											<hr> <br>
-											Price: <?= $unitprice; ?> vnđ <br> <br>
-											Amount: <?= $stock; ?> <br> <br>
+											Price: <?= $unitprice; ?> VND <br> <br>
 											Number of products you want to buy: <input type="number" style="width: 100px;"> <br> <br> <br>
 											<a href=""><input type="button" value="Buy now" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:40%; height: 30px; margin: 20px" ></a>
 											<a href=""><input type="button" value="Add to cart" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:40%; height: 30px; margin: 15px" ></a>
