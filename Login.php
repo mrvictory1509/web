@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Log in</title>
+</head> 
+   <body bgcolor = "#1423E4">
+      <div align = "center">
+         <div style = "width:300px; border: solid 1px #333333; " align = "left">
+            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>         
+            <div style = "margin:30px">
+               <form action = "" method = "post">
+                  <label>UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
+                  <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
+                  <input type = "submit" value = " Submit "/><br />
+               </form>
+               <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>           
+            </div>
+         </div>       
+      </div>
+   </body>
+</html>
 <?php
    define('DB_SERVER', 'localhost:3036');
    define('DB_USERNAME', 'root');
@@ -5,9 +27,6 @@
    define('DB_DATABASE', 'database');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 ?>
-Login.php
-Login PHP is having information about php script and HTML script to do login.
-
 <?php
    include("config.php");
    session_start();
