@@ -14,10 +14,6 @@
 			</ul>
 		</div>
 		<div class="banner">
-		 		<div class="Home">
-		 			<p>Admin Interface</p>
-					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
-				</div>
 				<div class="Search">
 					<div class="Search1">
 						<form class="example" action="/action_page.php">
@@ -32,7 +28,7 @@
 		<div >
 			<div   style="width:60%; margin: auto;" >
 				<h1>Edit Information of Product</h1>
-			</div>
+			
 			<div  class="dangky2">
 				<?php 
 					require_once('./ATNconnector.php');
@@ -74,6 +70,7 @@
 				 <?php } ?>	
 			</div>
 		</div>
+	</div>
 	</div>	
 	<div class="footer">
 		<table  cellspacing="0" cellpadding="10" width= 100% align="center" >
