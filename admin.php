@@ -90,6 +90,7 @@
 					<th>Repair</th>
 					<th>Delete</th>
 				</tr>
+				<th>
 				<?php 
 					require_once('./ATNconnector.php');
 					$conn = new ATNconnector();
@@ -97,13 +98,14 @@
 					$rows = $conn->runQueryadmin($sql);
 				 	for ($i=0; $i < count($rows) ; $i++) { 
 				?>
+				</th>
 					<tr>
 						<?php for ($j=0; $j<count($rows[$i]); $j++) { ?>
 							<th>
 								<?php echo $rows[$i][$j]?>
 							</th>							
 						<?php } ?>
-							<th ><a href="https://thang1234.herokuapp.com/Suadoi.php?id=<?php echo $rows[$i][0] ?>"><input type="button" value="Update" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" ></a> 
+							<th ><a href="https://thang1234.herokuapp.com/suadoi.php?id=<?php echo $rows[$i][0] ?>"><input type="button" value="Update" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" ></a> 
 							</th>
 							<th ><a href="admin.php?del=<?php echo $rows[$i][0] ?>"> <input type="button" value="Delete" style=" background-color: #FF7302; text-decoration-color: #FFFFFF;" onclick="return Deleteqry(<?php echo $rows[$i][0] ?>);"> </a>
 							</th>

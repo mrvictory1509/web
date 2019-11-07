@@ -63,7 +63,7 @@
 	 					<tr><td colspan="5" > Please enter all product information (<SPAN style="color: red">*</SPAN>)</td></tr>
 	 					<tr>
 	 						<th colspan="3" > <input type="submit" value="Edit" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px"></th>
-	 						<th colspan="2" > <a href="https://designweb.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px"></a></th>
+	 						<th colspan="2" > <a href="https://thang1234.herokuapp.com/admin.php"><input type="button" value="Back" style=" background-color: #FF7302; text-decoration-color: #FFFFFF; width:25%; height: 30px"></a></th>
 	 					</tr>
 	 				</table>
 	 			</form>
