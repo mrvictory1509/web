@@ -10,13 +10,13 @@
 	<div class="header">
 		<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Back to the customer interface</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Back to the customer interface</a></li>
 			</ul>
 		</div>
 		<div class="banner">
 		 		<div class="Home">
 		 			<p>Admin Interface</p>
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
