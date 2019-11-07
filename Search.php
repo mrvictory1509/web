@@ -35,7 +35,7 @@
 			<ul>
 				<?php
 		          include 'ConnectorSQL.php';
-		            $querycategory = "SELECT categoryid, categoryname FROM category";
+		            $querycategory = "SELECT CategoryId, CategoryName FROM Catedory";
 		            $total = pg_query($connection,$querycategory);
 		            if (pg_num_rows($total) > 0) {
 		            // output data of each row

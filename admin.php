@@ -29,7 +29,7 @@
 	   	require_once('./ATNconnector.php');
 	   	$conn = new ATNconnector();
 	   	$id = $_GET['del'];
-	    $sql ="DELETE FROM product WHERE Productid ='". (int)$id ."'";
+	    $sql ="DELETE FROM Product WHERE Productid ='". (int)$id ."'";
 	    $conn->execStatement($sql);
 	    $message = "Product Deleted!";
 		echo "<script type='text/javascript'>alert('$message');</script>";
