@@ -63,14 +63,12 @@
 		            $productname = $rowfirst['productname'];
 		            $unitprice = $rowfirst['unitprice'];
 		            $images = $rowfirst['images'];
-		            $manufacturer = $rowfirst['manufacturer'];
-		            $stock = $rowfirst['stock'];
 		            ?>
 				<div class="item">
 					<a href="Thongtinsanpham.php?productid=<?= $productid;  ?>"><div class="iimage"><img src="<?= $images; ?>" alt="">
 					</div></a>
 					<div class="Thongtin">	Product Name: <?= $productname; ?> <br> <br>
-											Giá Sản Phẩm: <?=$unitprice; ?> vnđ <br> <br>
+											Price: <?=$unitprice; ?> vnđ <br> <br>
 					</div>
 				</div>
 				<?php
