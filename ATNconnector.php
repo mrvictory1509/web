@@ -1,7 +1,7 @@
 <?php
 class ATNconnector{
-	public $host='localhost';
-	public $dbname='cunshop';
+	public $host='ec2-54-221-198-156.compute-1.amazonaws.com';
+	public $dbname='dcvm369d6sl8tr';
 	public $un= 'root';
 	public $pw='';
 	public function runQuery($sql)

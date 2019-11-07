@@ -90,7 +90,6 @@
 					<th>Repair</th>
 					<th>Delete</th>
 				</tr>
-				<th>
 				<?php 
 					require_once('./ATNconnector.php');
 					$conn = new ATNconnector();
@@ -98,7 +97,6 @@
 					$rows = $conn->runQueryadmin($sql);
 				 	for ($i=0; $i < count($rows) ; $i++) { 
 				?>
-				</th>
 					<tr>
 						<?php for ($j=0; $j<count($rows[$i]); $j++) { ?>
 							<th>
