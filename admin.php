@@ -19,7 +19,7 @@
 	if (isset($_GET['Productname'])) {
 		require_once('./ATNconnector.php');
 		$conn = new ATNconnector();
-		$sql = "UPDATE `product` SET `Productname`='".$_GET['Productname']."',`Manufacturer`='".$_GET['Manufacturer']."',`Unitprice`='".(int)$_GET['Unitprice']."',`Images`='".$_GET['Images']."',`Stock`='".(int)$_GET['Stock']."',`Categoryid`='".(int)$_GET['Categoryid']."' WHERE Productid = ".$_GET['Productid'];
+		$sql = "UPDATE `product` SET `Productname`='".$_GET['Productname']."',`Unitprice`='".(int)$_GET['Unitprice']."',`Images`='".$_GET['Images']."',`Categoryid`='".(int)$_GET['Categoryid']."' WHERE Productid = ".$_GET['Productid'];
 		$conn -> execStatement($sql);
 	}	
  ?>
@@ -41,12 +41,10 @@
 		{
 		$ID = $_POST['Productid'];
 		$Images = $_POST['Images'];
-		$Manufacturer = $_POST['Manufacturer'];
-		$Productname = $_POST['Productname'];
-		$Stock = $_POST['Stock'];
+		$Productname = $_POST['Productname'];;
 		$Unitprice = $_POST['Unitprice'];
 		$Categoryid = $_POST['Categoryid'];
-		$sql = "INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid) VALUES (". $ID .",'". $Productname ."','". $Manufacturer ."',". $Unitprice .", '". $Images."',   ". $Stock .", ". $Categoryid ." )";
+		$sql = "INSERT INTO product(Productid, Productname, Unitprice, Images, Categoryid) VALUES (". $ID .",'". $Productname ."',". $Unitprice .", '". $Images."', ". $Categoryid ." )";
 		$sql1 ="SELECT * FROM product WHERE Productid =".$_POST['Productid'];
 		$conn = new ATNconnector();
 		$row = $conn -> runQuery($sql1);

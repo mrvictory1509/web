@@ -42,7 +42,7 @@
 						$Productname = $_POST['Productname'];
 						$Unitprice = $_POST['Unitprice'];
 						$Categoryid = $_POST['Categoryid'];
-						$sql = "INSERT INTO product(Productid, Productname, Manufacturer, Unitprice, Images, Stock, Categoryid) VALUES (". $ID .",'". $Productname ."','". $Manufacturer ."',". $Unitprice .", '". $Images."',   ". $Stock .", ". $Categoryid ." )";
+						$sql = "INSERT INTO product(Productid, Productname, Unitprice, Images, Categoryid) VALUES (". $ID .",'". $Productname ."',". $Unitprice .", '". $Images."',  ". $Categoryid ." )";
 						$sql1 ="SELECT * FROM product WHERE Productid =".$_POST['Productid'];
 						$conn = new ATNconnector();
 						$row = $conn -> runQuery($sql1);

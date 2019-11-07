@@ -11,8 +11,8 @@
 			<div class="nava">
 			<ul>
 				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
-				<li><a href="">Check Oder</a></li>
-				<li><a href="">Log in</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Checkorder.php">Check Oder</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Login.php">Log in</a></li>
 				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
 				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
@@ -48,7 +48,6 @@
 		       <?php }} ?>
 			</ul>
 		</div>
-		
 		<div >
 			<div class="Mathang">Hot Items: </div>
 			<br>
@@ -68,7 +67,7 @@
 					<a href="Thongtinsanpham.php?productid=<?= $productid;  ?>"><div class="iimage"><img src="<?= $images; ?>" alt="">
 					</div></a>
 					<div class="Thongtin">	Product Name: <?= $productname; ?> <br> <br>
-											Price: <?=$unitprice; ?> vnđ <br> <br>
+											Price: <?=$unitprice; ?> VND <br> <br>
 					</div>
 				</div>
 				<?php

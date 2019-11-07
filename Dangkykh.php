@@ -11,8 +11,8 @@
 			<div class="nava">
 			<ul>
 				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
-				<li><a href="">Check Order</a></li>
-				<li><a href="">Log in</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Checkorder.php">Check Order</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Login.php">Log in</a></li>
 				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
 				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
@@ -46,12 +46,11 @@
 					// insert data
 					$fullname = $_POST['fullname'];	
 					$address = $_POST['address'];
-					$postalcode = $_POST['postalcode'];
 					$city = $_POST['city'];
 					$country = $_POST['country'];
 					$tendangnhap = $_POST['tendangnhap'];
 					$password = $_POST['password'];
-					$sql = "INSERT INTO customers(custid, fullname,  address, postalcode, city, country, phone, fax, tendangnhap, password)  VALUES ('$custid','$fullname','$address', '$postalcode',   '$city', '$country', '$phone', '$fax', '$tendangnhap','$password')";
+					$sql = "INSERT INTO customers(custid, fullname,  address, city, country, phone, fax, tendangnhap, password)  VALUES ('$custid','$fullname','$address',  '$city', '$country', '$phone', '$fax', '$tendangnhap','$password')";
 					$sql1 ="SELECT * FROM customers WHERE custid =".$_POST['custid'];
 					include 'ConnectorSQL.php';
 					$row = pg_query($connection, $sql);

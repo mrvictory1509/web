@@ -41,8 +41,7 @@
 					{
 						$Categoryid = $_POST['Categoryid'];
 						$Categoryname = $_POST['Categoryname'];
-						$Description = $_POST['Description'];
-						$sql = "INSERT INTO category(Categoryid, Categoryname, Description) VALUES (". (int)$Categoryid .",'". $Categoryname ."','". $Description ."')";
+						$sql = "INSERT INTO category(Categoryid, Categoryname, Description) VALUES (". (int)$Categoryid .",'". $Categoryname ."')";
 						$sql1 ="SELECT * FROM category WHERE Categoryid =".$_POST['Categoryid'];
 						$conn = new ATNconnector();
 						$row = $conn -> runQuery($sql1);
@@ -65,7 +64,6 @@
 	 					</tr>
 	 					<tr>
 	 						<td>CategoryName <SPAN style="color: red">*</SPAN></td>
-	 						<th><input type="text" name="Manufacturer" required></th>
 	 					</tr>
 	 					<tr><td colspan="5" >Please enter all product information (<SPAN style="color: red">*</SPAN>)</td></tr>
 	 					<tr></tr>
