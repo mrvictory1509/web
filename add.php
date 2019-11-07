@@ -14,10 +14,6 @@
 			</ul>
 		</div>
 		<div class="banner">
-		 		<div class="Home">
-		 			<p>Admin Interface</p>
-					<a href="https://thang1234.herokuapp.com/admin.php"></a>
-				</div>
 				<div class="Search">
 					<div class="Search1">
 						<form class="example" action="/action_page.php">
