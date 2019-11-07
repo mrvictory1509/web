@@ -10,16 +10,16 @@
 	<div class="header">
 			<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Home</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
 				<li><a href="">Check Order</a></li>
 				<li><a href="">Log in</a></li>
-				<li><a href="https://designweb.herokuapp.com/Dangkykh.php">Register</a></li>
-				<li><a href="https://designweb.herokuapp.com/admin.php">Admin</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
+				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
 			</div>
 		 	<div class="banner">
 		 		<div class="Home">
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
@@ -37,13 +37,13 @@
 				<table align="center" cellspacing="0" cellpadding="0" width="50%">
 					<tr>
 						<td><h1>Create an Account</h1></td>
-						<td style="padding-left: 200px">You are already a member?<a href="https://designweb.herokuapp.com/Dangnhap.php">Log in</a> Here</td>
+						<td style="padding-left: 200px">You are already a member?<a href="https://thang1234.herokuapp.com/Dangnhap.php">Log in</a> Here</td>
 					</tr>
 				</table>
 			</div>
 			<?php 
 					$custid = $_POST['custid'];
-					// insert dữ liệu
+					// insert data
 					$fullname = $_POST['fullname'];	
 					$address = $_POST['address'];
 					$postalcode = $_POST['postalcode'];

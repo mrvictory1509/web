@@ -10,16 +10,16 @@
 	<div class="header">
 			<div class="nava">
 			<ul>
-				<li><a href="https://designweb.herokuapp.com/ATN.php">Home</a></li>
+				<li><a href="https://thang1234.herokuapp.com/ATN.php">Home</a></li>
 				<li><a href="">Check Oder</a></li>
 				<li><a href="">Log in</a></li>
-				<li><a href="https://designweb.herokuapp.com/Dangkykh.php">Register</a></li>
-				<li><a href="https://designweb.herokuapp.com/admin.php">Admin</a></li>
+				<li><a href="https://thang1234.herokuapp.com/Dangkykh.php">Register</a></li>
+				<li><a href="https://thang1234.herokuapp.com/admin.php">Admin</a></li>
 			</ul>
 			</div>
 		 	<div class="banner">
 		 		<div class="Home">
-					<a href="https://designweb.herokuapp.com/ATN.php">ATN Shop</a>
+					<a href="https://thang1234.herokuapp.com/ATN.php">ATN Shop</a>
 				</div>
 				<div class="Search">
 					<div class="Search1">
