@@ -56,8 +56,7 @@
 					if ($row) {
 						$message = "Added customer information";
 					echo "<script type='text/javascript'>alert('$message');</script>";
-					}
-							
+					}				
 			 ?>
 			<div  class="dangky2" >
 				<form action="" method="POST">

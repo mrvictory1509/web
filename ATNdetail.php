@@ -70,7 +70,6 @@
 		    $queryfirst = "SELECT * FROM product where categoryid = $categoryid ";
 		    $resultfirst = pg_query($connection,$queryfirst);
 		    if (pg_num_rows($resultfirst) > 0) {
-		      // output data of each row
 		      while($rowfirst = pg_fetch_assoc($resultfirst)) {
 		            $productid = $rowfirst['productid'];
 		            $productname = $rowfirst['productname'];
