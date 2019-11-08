@@ -1,7 +1,7 @@
 <?php
 class ATNconnector{
 	public $host='localhost';
-	public $dbname='cunshop';
+	public $dbname='customers';
 	public $un= 'root';
 	public $pw='';
 	public function runQuery($sql)
@@ -28,6 +28,3 @@ class ATNconnector{
 	}
 } 
  ?>
- <?php
-    $db_connection = pg_connect("host=ec2-174-129-253-157.compute-1.amazonaws.com dbname=ddt4kf2tt55npb user=tvipgwpndvwuxg password=25121c48dbc1ca27983d208cd335239df3cefcba63f5d9663dbb657285249d83");
-?>
