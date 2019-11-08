@@ -93,7 +93,7 @@
 				<?php 
 					require_once('./ATNconnector.php');
 					$conn = new ATNconnector();
-					$sql = "Select * From product";
+					$sql = "Select * From public.product";
 					$rows = $conn->runQueryadmin($sql);
 				 	for ($i=0; $i < count($rows) ; $i++) { 
 				?>
